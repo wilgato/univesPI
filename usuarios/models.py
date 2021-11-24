@@ -1,8 +1,9 @@
 from django.db import models
 
-#user: caio12
-#email: caio@gmail.com
-#senha: teste1234
+
+#user: ckaew
+#email: wil.kimel@hotmail.com
+#senha: 1234
 
 class Usuario(models.Model):
     nome = models.CharField(max_length=30)
